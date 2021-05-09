@@ -1,8 +1,8 @@
 def index():
-    with open(r'D:/proj/LLweb/templates/index.html') as template:
+    with open(r'./templates/index.html') as template:
         return template.read()
 
 
 def blog():
-    with open(r'D:/proj/LLweb/templates/blog.html') as template:
+    with open(r'./templates/blog.html') as template:
         return template.read()
